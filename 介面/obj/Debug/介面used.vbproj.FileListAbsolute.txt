@@ -1,0 +1,345 @@
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\介面.pdb
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\Devart.Data.dll
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\Devart.Data.MySql.dll
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.dll
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\obj\Debug\介面used.vbproj.CopyComplete
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\obj\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\obj\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\介面F\介面\obj\Debug\介面.pdb
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\介面.exe
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\介面.pdb
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\介面.xml
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\obj\Debug\介面used.vbproj.Up2Date
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\obj\Debug\介面.exe
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\obj\Debug\介面.xml
+C:\Users\user\OneDrive\文件\F_2\介面F\介面\obj\Debug\介面.pdb
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\obj\Debug\介面.exe
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\obj\Debug\介面.xml
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\obj\Debug\介面.pdb
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\介面.exe
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\介面.pdb
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\介面.xml
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\文件\F_21\介面F\介面\obj\Debug\介面used.vbproj.Up2Date
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\介面.exe
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\介面.pdb
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\介面.xml
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\Devart.Data.dll
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\Devart.Data.MySql.dll
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.dll
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\obj\Debug\介面used.vbproj.CopyComplete
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\obj\Debug\介面.exe
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\obj\Debug\介面.xml
+C:\Users\wiwi\Desktop\F_21\F_21\介面F\介面\obj\Debug\介面.pdb
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\介面.pdb
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\Devart.Data.dll
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\Devart.Data.MySql.dll
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.dll
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\obj\Debug\介面used.vbproj.CopyComplete
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\obj\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\obj\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\F.2-1\F_21\F_21\介面F\介面\obj\Debug\介面.pdb
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\介面.exe
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\介面.pdb
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\介面.xml
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\Devart.Data.dll
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\Devart.Data.MySql.dll
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.dll
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\wiwi\Desktop\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\wiwi\Desktop\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\wiwi\Desktop\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\wiwi\Desktop\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\wiwi\Desktop\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\wiwi\Desktop\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\wiwi\Desktop\介面F\介面\obj\Debug\介面used.vbproj.CopyComplete
+C:\Users\wiwi\Desktop\介面F\介面\obj\Debug\介面.exe
+C:\Users\wiwi\Desktop\介面F\介面\obj\Debug\介面.xml
+C:\Users\wiwi\Desktop\介面F\介面\obj\Debug\介面.pdb
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\介面.exe
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\介面.pdb
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\介面.xml
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\obj\Debug\介面used.vbproj.Up2Date
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\obj\Debug\介面.exe
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\obj\Debug\介面.xml
+C:\Users\user\OneDrive\文件\介面F321\介面F\介面\obj\Debug\介面.pdb
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\介面.exe
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\介面.pdb
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\介面.xml
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\obj\Debug\介面used.vbproj.Up2Date
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\obj\Debug\介面.exe
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\obj\Debug\介面.xml
+C:\Users\user\OneDrive\文件\介面F\介面F\介面\obj\Debug\介面.pdb
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\介面.pdb
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\Devart.Data.dll
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\Devart.Data.MySql.dll
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.dll
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\obj\Debug\介面used.vbproj.CopyComplete
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\obj\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\obj\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\beta介面\介面F\介面F\介面\obj\Debug\介面.pdb
+C:\Users\user\Downloads\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\user\Downloads\介面F\介面\bin\Debug\介面.exe
+C:\Users\user\Downloads\介面F\介面\bin\Debug\介面.pdb
+C:\Users\user\Downloads\介面F\介面\bin\Debug\介面.xml
+C:\Users\user\Downloads\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\user\Downloads\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\user\Downloads\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Downloads\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Downloads\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\user\Downloads\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\user\Downloads\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\user\Downloads\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\user\Downloads\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\user\Downloads\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\user\Downloads\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\user\Downloads\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\user\Downloads\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\介面F\介面\obj\Debug\介面used.vbproj.Up2Date
+C:\Users\user\Downloads\介面F\介面\obj\Debug\介面.exe
+C:\Users\user\Downloads\介面F\介面\obj\Debug\介面.xml
+C:\Users\user\Downloads\介面F\介面\obj\Debug\介面.pdb
+C:\Users\user\Downloads\介面F\介面\obj\Debug\介面used.vbproj.ResolveComReference.cache
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\介面.pdb
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\Devart.Data.dll
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\Devart.Data.MySql.dll
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.dll
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.ResolveComReference.cache
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.CopyComplete
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\obj\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\obj\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\介面DEMO\介面F\介面\obj\Debug\介面.pdb
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\介面.exe
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\介面.pdb
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\介面.xml
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.ResolveComReference.cache
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.Up2Date
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面.exe
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面.xml
+C:\Users\user\Downloads\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面.pdb
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\介面.pdb
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\Devart.Data.dll
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\Devart.Data.MySql.dll
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.dll
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.ResolveComReference.cache
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面used.vbproj.CopyComplete
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\介面Demo\介面DEMO (1)\介面DEMO\介面F\介面\obj\Debug\介面.pdb
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\介面.exe.config
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\介面.exe
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\介面.pdb
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\介面.xml
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\EntityFramework.dll
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\System.Memory.dll
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\System.Buffers.dll
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\EntityFramework.xml
+C:\Users\user\Downloads\介面Demo\介面F\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\user\Downloads\介面Demo\介面F\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\user\Downloads\介面Demo\介面F\介面\obj\Debug\介面used.vbproj.ResolveComReference.cache
+C:\Users\user\Downloads\介面Demo\介面F\介面\obj\Debug\介面.Form1.resources
+C:\Users\user\Downloads\介面Demo\介面F\介面\obj\Debug\介面.Resources.resources
+C:\Users\user\Downloads\介面Demo\介面F\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\user\Downloads\介面Demo\介面F\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\介面Demo\介面F\介面\obj\Debug\介面used.vbproj.Up2Date
+C:\Users\user\Downloads\介面Demo\介面F\介面\obj\Debug\介面.exe
+C:\Users\user\Downloads\介面Demo\介面F\介面\obj\Debug\介面.xml
+C:\Users\user\Downloads\介面Demo\介面F\介面\obj\Debug\介面.pdb
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\介面.exe.config
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\介面.pdb
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\Devart.Data.dll
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\Devart.Data.MySql.dll
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.dll
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\EntityFramework.dll
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\System.Memory.dll
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\System.Buffers.dll
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\Devart.Data.MySql.Entity.EF5.xml
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\EntityFramework.xml
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\obj\Debug\介面used.vbproj.AssemblyReference.cache
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\obj\Debug\介面used.vbproj.ResolveComReference.cache
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\obj\Debug\介面.Form1.resources
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\obj\Debug\介面.Resources.resources
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\obj\Debug\介面used.vbproj.GenerateResource.cache
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\obj\Debug\介面used.vbproj.CoreCompileInputs.cache
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\obj\Debug\介面used.vbproj.CopyComplete
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\obj\Debug\介面.exe
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\obj\Debug\介面.xml
+C:\Users\jie84\OneDrive\Desktop\介面土豆\介面土豆\介面\obj\Debug\介面.pdb

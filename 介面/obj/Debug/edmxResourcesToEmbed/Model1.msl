@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="storeModelStoreContainer" CdmEntityContainer="storeEntities4">
+    <EntitySetMapping Name="member">
+      <EntityTypeMapping TypeName="storeModel.member">
+        <MappingFragment StoreEntitySet="member">
+          <ScalarProperty Name="member_name" ColumnName="member_name" />
+          <ScalarProperty Name="member_phone" ColumnName="member_phone" />
+          <ScalarProperty Name="member_email" ColumnName="member_email" />
+          <ScalarProperty Name="member_birthday" ColumnName="member_birthday" />
+          <ScalarProperty Name="member_point" ColumnName="member_point" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="order_management">
+      <EntityTypeMapping TypeName="storeModel.order_management">
+        <MappingFragment StoreEntitySet="order_management">
+          <ScalarProperty Name="Order_number" ColumnName="Order_number" />
+          <ScalarProperty Name="Order_time" ColumnName="Order_time" />
+          <ScalarProperty Name="Order_status" ColumnName="Order_status" />
+          <ScalarProperty Name="Order_sum" ColumnName="Order_sum" />
+          <ScalarProperty Name="member_phone" ColumnName="member_phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="storeModel.products">
+        <MappingFragment StoreEntitySet="products">
+          <ScalarProperty Name="product_number" ColumnName="product_number" />
+          <ScalarProperty Name="product_name" ColumnName="product_name" />
+          <ScalarProperty Name="product_quantity" ColumnName="product_quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products_material">
+      <EntityTypeMapping TypeName="storeModel.products_material">
+        <MappingFragment StoreEntitySet="products_material">
+          <ScalarProperty Name="compose_id" ColumnName="compose_id" />
+          <ScalarProperty Name="food_id" ColumnName="food_id" />
+          <ScalarProperty Name="food_name" ColumnName="food_name" />
+          <ScalarProperty Name="material1" ColumnName="material1" />
+          <ScalarProperty Name="material2" ColumnName="material2" />
+          <ScalarProperty Name="material3" ColumnName="material3" />
+          <ScalarProperty Name="material4" ColumnName="material4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="purchase_records">
+      <EntityTypeMapping TypeName="storeModel.purchase_records">
+        <MappingFragment StoreEntitySet="purchase_records">
+          <ScalarProperty Name="purchase_id" ColumnName="purchase_id" />
+          <ScalarProperty Name="purchase_order" ColumnName="purchase_order" />
+          <ScalarProperty Name="material_name" ColumnName="material_name" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="purchase_date" ColumnName="purchase_date" />
+          <ScalarProperty Name="purchase_sum" ColumnName="purchase_sum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stock">
+      <EntityTypeMapping TypeName="storeModel.stock">
+        <MappingFragment StoreEntitySet="stock">
+          <ScalarProperty Name="stock_id" ColumnName="stock_id" />
+          <ScalarProperty Name="material_name" ColumnName="material_name" />
+          <ScalarProperty Name="material_amount" ColumnName="material_amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="order_current">
+      <EntityTypeMapping TypeName="storeModel.order_current">
+        <MappingFragment StoreEntitySet="order_current">
+          <ScalarProperty Name="food_number" ColumnName="food_number" />
+          <ScalarProperty Name="food_name" ColumnName="food_name" />
+          <ScalarProperty Name="food_amount" ColumnName="food_amount" />
+          <ScalarProperty Name="food_price" ColumnName="food_price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="order_store">
+      <EntityTypeMapping TypeName="storeModel.order_store">
+        <MappingFragment StoreEntitySet="order_store">
+          <ScalarProperty Name="Order_number" ColumnName="Order_number" />
+          <ScalarProperty Name="food_name" ColumnName="food_name" />
+          <ScalarProperty Name="food_amount" ColumnName="food_amount" />
+          <ScalarProperty Name="food_price" ColumnName="food_price" />
+          <ScalarProperty Name="member_phone" ColumnName="member_phone" />
+          <ScalarProperty Name="Order_status" ColumnName="Order_status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

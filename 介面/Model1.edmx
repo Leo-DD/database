@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="storeModel.Store" Provider="Devart.Data.MySql" ProviderManifestToken="MySQL, 5.5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="member">
+          <Key>
+            <PropertyRef Name="member_phone" />
+          </Key>
+          <Property Name="member_name" Type="text" Nullable="false" />
+          <Property Name="member_phone" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="member_email" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="member_birthday" Type="date" Nullable="false" />
+          <Property Name="member_point" Type="int" />
+        </EntityType>
+        <!--產生期間發現錯誤:
+警告 6002: 資料表/檢視 'Catalog1.store.order_current' 未定義主索引鍵。已推斷此索引鍵，並將定義建立成唯讀的資料表/檢視。-->
+        <EntityType Name="order_current">
+          <Key>
+            <PropertyRef Name="food_number" />
+            <PropertyRef Name="food_name" />
+            <PropertyRef Name="food_price" />
+          </Key>
+          <Property Name="food_number" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="food_name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="food_amount" Type="int" />
+          <Property Name="food_price" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="order_management">
+          <Key>
+            <PropertyRef Name="Order_number" />
+          </Key>
+          <Property Name="Order_number" Type="int" Nullable="false" />
+          <Property Name="Order_time" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="Order_status" Type="varchar" MaxLength="50" />
+          <Property Name="Order_sum" Type="int" Nullable="false" />
+          <Property Name="member_phone" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--產生期間發現錯誤:
+警告 6002: 資料表/檢視 'Catalog1.store.order_store' 未定義主索引鍵。已推斷此索引鍵，並將定義建立成唯讀的資料表/檢視。-->
+        <EntityType Name="order_store">
+          <Key>
+            <PropertyRef Name="Order_number" />
+            <PropertyRef Name="food_name" />
+            <PropertyRef Name="food_amount" />
+            <PropertyRef Name="food_price" />
+            <PropertyRef Name="member_phone" />
+            <PropertyRef Name="Order_status" />
+          </Key>
+          <Property Name="Order_number" Type="int" Nullable="false" />
+          <Property Name="food_name" Type="int" Nullable="false" />
+          <Property Name="food_amount" Type="int" Nullable="false" />
+          <Property Name="food_price" Type="int" Nullable="false" />
+          <Property Name="member_phone" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Order_status" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="products">
+          <Key>
+            <PropertyRef Name="product_number" />
+          </Key>
+          <Property Name="product_number" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="product_name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="product_quantity" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="products_material">
+          <Key>
+            <PropertyRef Name="compose_id" />
+          </Key>
+          <Property Name="compose_id" Type="int" Nullable="false" />
+          <Property Name="food_id" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="food_name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="material1" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="material2" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="material3" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="material4" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="purchase_records">
+          <Key>
+            <PropertyRef Name="purchase_id" />
+          </Key>
+          <Property Name="purchase_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="purchase_order" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="material_name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="quantity" Type="int" Nullable="false" />
+          <Property Name="purchase_date" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="purchase_sum" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="stock">
+          <Key>
+            <PropertyRef Name="stock_id" />
+          </Key>
+          <Property Name="stock_id" Type="int" Nullable="false" />
+          <Property Name="material_name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="material_amount" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="storeModelStoreContainer">
+          <EntitySet Name="member" EntityType="Self.member" Schema="store" store:Type="Tables" />
+          <EntitySet Name="order_management" EntityType="Self.order_management" Schema="store" store:Type="Tables" />
+          <EntitySet Name="products" EntityType="Self.products" Schema="store" store:Type="Tables" />
+          <EntitySet Name="products_material" EntityType="Self.products_material" Schema="store" store:Type="Tables" />
+          <EntitySet Name="purchase_records" EntityType="Self.purchase_records" Schema="store" store:Type="Tables" />
+          <EntitySet Name="stock" EntityType="Self.stock" Schema="store" store:Type="Tables" />
+          <EntitySet Name="order_current" EntityType="Self.order_current" store:Type="Tables" store:Schema="store">
+            <DefiningQuery>SELECT 
+order_current.food_number,
+order_current.food_name,
+order_current.food_amount,
+order_current.food_price
+FROM store.order_current AS order_current</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="order_store" EntityType="Self.order_store" store:Type="Tables" store:Schema="store">
+            <DefiningQuery>SELECT 
+order_store.Order_number,
+order_store.food_name,
+order_store.food_amount,
+order_store.food_price,
+order_store.member_phone,
+order_store.Order_status
+FROM store.order_store AS order_store</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="storeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="member">
+          <Key>
+            <PropertyRef Name="member_phone" />
+          </Key>
+          <Property Name="member_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="member_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="member_email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="member_birthday" Type="DateTime" Nullable="false" />
+          <Property Name="member_point" Type="Int32" />
+        </EntityType>
+        <EntityType Name="order_management">
+          <Key>
+            <PropertyRef Name="Order_number" />
+          </Key>
+          <Property Name="Order_number" Type="Int32" Nullable="false" />
+          <Property Name="Order_time" Type="DateTime" Nullable="false" />
+          <Property Name="Order_status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Order_sum" Type="Int32" Nullable="false" />
+          <Property Name="member_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="products">
+          <Key>
+            <PropertyRef Name="product_number" />
+          </Key>
+          <Property Name="product_number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="product_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="product_quantity" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="products_material">
+          <Key>
+            <PropertyRef Name="compose_id" />
+          </Key>
+          <Property Name="compose_id" Type="Int32" Nullable="false" />
+          <Property Name="food_id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="food_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="material1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="material2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="material3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="material4" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="purchase_records">
+          <Key>
+            <PropertyRef Name="purchase_id" />
+          </Key>
+          <Property Name="purchase_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="purchase_order" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="material_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="quantity" Type="Int32" Nullable="false" />
+          <Property Name="purchase_date" Type="DateTime" Nullable="false" />
+          <Property Name="purchase_sum" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="stock">
+          <Key>
+            <PropertyRef Name="stock_id" />
+          </Key>
+          <Property Name="stock_id" Type="Int32" Nullable="false" />
+          <Property Name="material_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="material_amount" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="order_current">
+          <Key>
+            <PropertyRef Name="food_number" />
+            <PropertyRef Name="food_name" />
+            <PropertyRef Name="food_price" />
+          </Key>
+          <Property Name="food_number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="food_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="food_amount" Type="Int32" />
+          <Property Name="food_price" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="order_store">
+          <Key>
+            <PropertyRef Name="Order_number" />
+            <PropertyRef Name="food_name" />
+            <PropertyRef Name="food_amount" />
+            <PropertyRef Name="food_price" />
+            <PropertyRef Name="member_phone" />
+            <PropertyRef Name="Order_status" />
+          </Key>
+          <Property Name="Order_number" Type="Int32" Nullable="false" />
+          <Property Name="food_name" Type="Int32" Nullable="false" />
+          <Property Name="food_amount" Type="Int32" Nullable="false" />
+          <Property Name="food_price" Type="Int32" Nullable="false" />
+          <Property Name="member_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Order_status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="storeEntities4" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="member" EntityType="Self.member" />
+          <EntitySet Name="order_management" EntityType="Self.order_management" />
+          <EntitySet Name="products" EntityType="Self.products" />
+          <EntitySet Name="products_material" EntityType="Self.products_material" />
+          <EntitySet Name="purchase_records" EntityType="Self.purchase_records" />
+          <EntitySet Name="stock" EntityType="Self.stock" />
+          <EntitySet Name="order_current" EntityType="Self.order_current" />
+          <EntitySet Name="order_store" EntityType="Self.order_store" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="storeModelStoreContainer" CdmEntityContainer="storeEntities4">
+          <EntitySetMapping Name="member">
+            <EntityTypeMapping TypeName="storeModel.member">
+              <MappingFragment StoreEntitySet="member">
+                <ScalarProperty Name="member_name" ColumnName="member_name" />
+                <ScalarProperty Name="member_phone" ColumnName="member_phone" />
+                <ScalarProperty Name="member_email" ColumnName="member_email" />
+                <ScalarProperty Name="member_birthday" ColumnName="member_birthday" />
+                <ScalarProperty Name="member_point" ColumnName="member_point" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="order_management">
+            <EntityTypeMapping TypeName="storeModel.order_management">
+              <MappingFragment StoreEntitySet="order_management">
+                <ScalarProperty Name="Order_number" ColumnName="Order_number" />
+                <ScalarProperty Name="Order_time" ColumnName="Order_time" />
+                <ScalarProperty Name="Order_status" ColumnName="Order_status" />
+                <ScalarProperty Name="Order_sum" ColumnName="Order_sum" />
+                <ScalarProperty Name="member_phone" ColumnName="member_phone" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="products">
+            <EntityTypeMapping TypeName="storeModel.products">
+              <MappingFragment StoreEntitySet="products">
+                <ScalarProperty Name="product_number" ColumnName="product_number" />
+                <ScalarProperty Name="product_name" ColumnName="product_name" />
+                <ScalarProperty Name="product_quantity" ColumnName="product_quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="products_material">
+            <EntityTypeMapping TypeName="storeModel.products_material">
+              <MappingFragment StoreEntitySet="products_material">
+                <ScalarProperty Name="compose_id" ColumnName="compose_id" />
+                <ScalarProperty Name="food_id" ColumnName="food_id" />
+                <ScalarProperty Name="food_name" ColumnName="food_name" />
+                <ScalarProperty Name="material1" ColumnName="material1" />
+                <ScalarProperty Name="material2" ColumnName="material2" />
+                <ScalarProperty Name="material3" ColumnName="material3" />
+                <ScalarProperty Name="material4" ColumnName="material4" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="purchase_records">
+            <EntityTypeMapping TypeName="storeModel.purchase_records">
+              <MappingFragment StoreEntitySet="purchase_records">
+                <ScalarProperty Name="purchase_id" ColumnName="purchase_id" />
+                <ScalarProperty Name="purchase_order" ColumnName="purchase_order" />
+                <ScalarProperty Name="material_name" ColumnName="material_name" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+                <ScalarProperty Name="purchase_date" ColumnName="purchase_date" />
+                <ScalarProperty Name="purchase_sum" ColumnName="purchase_sum" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="stock">
+            <EntityTypeMapping TypeName="storeModel.stock">
+              <MappingFragment StoreEntitySet="stock">
+                <ScalarProperty Name="stock_id" ColumnName="stock_id" />
+                <ScalarProperty Name="material_name" ColumnName="material_name" />
+                <ScalarProperty Name="material_amount" ColumnName="material_amount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="order_current">
+            <EntityTypeMapping TypeName="storeModel.order_current">
+              <MappingFragment StoreEntitySet="order_current">
+                <ScalarProperty Name="food_number" ColumnName="food_number" />
+                <ScalarProperty Name="food_name" ColumnName="food_name" />
+                <ScalarProperty Name="food_amount" ColumnName="food_amount" />
+                <ScalarProperty Name="food_price" ColumnName="food_price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="order_store">
+            <EntityTypeMapping TypeName="storeModel.order_store">
+              <MappingFragment StoreEntitySet="order_store">
+                <ScalarProperty Name="Order_number" ColumnName="Order_number" />
+                <ScalarProperty Name="food_name" ColumnName="food_name" />
+                <ScalarProperty Name="food_amount" ColumnName="food_amount" />
+                <ScalarProperty Name="food_price" ColumnName="food_price" />
+                <ScalarProperty Name="member_phone" ColumnName="member_phone" />
+                <ScalarProperty Name="Order_status" ColumnName="Order_status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="無" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

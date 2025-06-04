@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="storeModel.Store" Provider="Devart.Data.MySql" ProviderManifestToken="MySQL, 5.5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="member">
+    <Key>
+      <PropertyRef Name="member_phone" />
+    </Key>
+    <Property Name="member_name" Type="text" Nullable="false" />
+    <Property Name="member_phone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="member_email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="member_birthday" Type="date" Nullable="false" />
+    <Property Name="member_point" Type="int" />
+  </EntityType>
+  <!--產生期間發現錯誤:
+警告 6002: 資料表/檢視 'Catalog1.store.order_current' 未定義主索引鍵。已推斷此索引鍵，並將定義建立成唯讀的資料表/檢視。-->
+  <EntityType Name="order_current">
+    <Key>
+      <PropertyRef Name="food_number" />
+      <PropertyRef Name="food_name" />
+      <PropertyRef Name="food_price" />
+    </Key>
+    <Property Name="food_number" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="food_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="food_amount" Type="int" />
+    <Property Name="food_price" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="order_management">
+    <Key>
+      <PropertyRef Name="Order_number" />
+    </Key>
+    <Property Name="Order_number" Type="int" Nullable="false" />
+    <Property Name="Order_time" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="Order_status" Type="varchar" MaxLength="50" />
+    <Property Name="Order_sum" Type="int" Nullable="false" />
+    <Property Name="member_phone" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--產生期間發現錯誤:
+警告 6002: 資料表/檢視 'Catalog1.store.order_store' 未定義主索引鍵。已推斷此索引鍵，並將定義建立成唯讀的資料表/檢視。-->
+  <EntityType Name="order_store">
+    <Key>
+      <PropertyRef Name="Order_number" />
+      <PropertyRef Name="food_name" />
+      <PropertyRef Name="food_amount" />
+      <PropertyRef Name="food_price" />
+      <PropertyRef Name="member_phone" />
+      <PropertyRef Name="Order_status" />
+    </Key>
+    <Property Name="Order_number" Type="int" Nullable="false" />
+    <Property Name="food_name" Type="int" Nullable="false" />
+    <Property Name="food_amount" Type="int" Nullable="false" />
+    <Property Name="food_price" Type="int" Nullable="false" />
+    <Property Name="member_phone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Order_status" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="products">
+    <Key>
+      <PropertyRef Name="product_number" />
+    </Key>
+    <Property Name="product_number" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="product_name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="product_quantity" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="products_material">
+    <Key>
+      <PropertyRef Name="compose_id" />
+    </Key>
+    <Property Name="compose_id" Type="int" Nullable="false" />
+    <Property Name="food_id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="food_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="material1" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="material2" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="material3" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="material4" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="purchase_records">
+    <Key>
+      <PropertyRef Name="purchase_id" />
+    </Key>
+    <Property Name="purchase_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="purchase_order" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="material_name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="quantity" Type="int" Nullable="false" />
+    <Property Name="purchase_date" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="purchase_sum" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="stock">
+    <Key>
+      <PropertyRef Name="stock_id" />
+    </Key>
+    <Property Name="stock_id" Type="int" Nullable="false" />
+    <Property Name="material_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="material_amount" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="storeModelStoreContainer">
+    <EntitySet Name="member" EntityType="Self.member" Schema="store" store:Type="Tables" />
+    <EntitySet Name="order_management" EntityType="Self.order_management" Schema="store" store:Type="Tables" />
+    <EntitySet Name="products" EntityType="Self.products" Schema="store" store:Type="Tables" />
+    <EntitySet Name="products_material" EntityType="Self.products_material" Schema="store" store:Type="Tables" />
+    <EntitySet Name="purchase_records" EntityType="Self.purchase_records" Schema="store" store:Type="Tables" />
+    <EntitySet Name="stock" EntityType="Self.stock" Schema="store" store:Type="Tables" />
+    <EntitySet Name="order_current" EntityType="Self.order_current" store:Type="Tables" store:Schema="store">
+      <DefiningQuery>SELECT 
+order_current.food_number,
+order_current.food_name,
+order_current.food_amount,
+order_current.food_price
+FROM store.order_current AS order_current</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="order_store" EntityType="Self.order_store" store:Type="Tables" store:Schema="store">
+      <DefiningQuery>SELECT 
+order_store.Order_number,
+order_store.food_name,
+order_store.food_amount,
+order_store.food_price,
+order_store.member_phone,
+order_store.Order_status
+FROM store.order_store AS order_store</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

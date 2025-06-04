@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="storeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="member">
+    <Key>
+      <PropertyRef Name="member_phone" />
+    </Key>
+    <Property Name="member_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="member_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="member_email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="member_birthday" Type="DateTime" Nullable="false" />
+    <Property Name="member_point" Type="Int32" />
+  </EntityType>
+  <EntityType Name="order_management">
+    <Key>
+      <PropertyRef Name="Order_number" />
+    </Key>
+    <Property Name="Order_number" Type="Int32" Nullable="false" />
+    <Property Name="Order_time" Type="DateTime" Nullable="false" />
+    <Property Name="Order_status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Order_sum" Type="Int32" Nullable="false" />
+    <Property Name="member_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="products">
+    <Key>
+      <PropertyRef Name="product_number" />
+    </Key>
+    <Property Name="product_number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="product_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="product_quantity" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="products_material">
+    <Key>
+      <PropertyRef Name="compose_id" />
+    </Key>
+    <Property Name="compose_id" Type="Int32" Nullable="false" />
+    <Property Name="food_id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="food_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="material1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="material2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="material3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="material4" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="purchase_records">
+    <Key>
+      <PropertyRef Name="purchase_id" />
+    </Key>
+    <Property Name="purchase_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="purchase_order" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="material_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="quantity" Type="Int32" Nullable="false" />
+    <Property Name="purchase_date" Type="DateTime" Nullable="false" />
+    <Property Name="purchase_sum" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="stock">
+    <Key>
+      <PropertyRef Name="stock_id" />
+    </Key>
+    <Property Name="stock_id" Type="Int32" Nullable="false" />
+    <Property Name="material_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="material_amount" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="order_current">
+    <Key>
+      <PropertyRef Name="food_number" />
+      <PropertyRef Name="food_name" />
+      <PropertyRef Name="food_price" />
+    </Key>
+    <Property Name="food_number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="food_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="food_amount" Type="Int32" />
+    <Property Name="food_price" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="order_store">
+    <Key>
+      <PropertyRef Name="Order_number" />
+      <PropertyRef Name="food_name" />
+      <PropertyRef Name="food_amount" />
+      <PropertyRef Name="food_price" />
+      <PropertyRef Name="member_phone" />
+      <PropertyRef Name="Order_status" />
+    </Key>
+    <Property Name="Order_number" Type="Int32" Nullable="false" />
+    <Property Name="food_name" Type="Int32" Nullable="false" />
+    <Property Name="food_amount" Type="Int32" Nullable="false" />
+    <Property Name="food_price" Type="Int32" Nullable="false" />
+    <Property Name="member_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Order_status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="storeEntities4" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="member" EntityType="Self.member" />
+    <EntitySet Name="order_management" EntityType="Self.order_management" />
+    <EntitySet Name="products" EntityType="Self.products" />
+    <EntitySet Name="products_material" EntityType="Self.products_material" />
+    <EntitySet Name="purchase_records" EntityType="Self.purchase_records" />
+    <EntitySet Name="stock" EntityType="Self.stock" />
+    <EntitySet Name="order_current" EntityType="Self.order_current" />
+    <EntitySet Name="order_store" EntityType="Self.order_store" />
+  </EntityContainer>
+</Schema>
